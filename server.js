@@ -10,5 +10,8 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/public/index.html");
 });
 
+app.get("/api/whoami", (req,res)=>{
+  res.json({ipaddress: req.ip, language: req.acceptsLanguages(), software: req.get('User-Agent')})
+})
 app.listen(PORT);
 console.log(`Server is listening to port ${PORT}`);

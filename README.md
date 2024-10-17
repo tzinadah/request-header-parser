@@ -1,2 +1,1 @@
-This is boilerplate for basic api using express js
-Main entrypoint at server.js
+This is an api that parses the get request header

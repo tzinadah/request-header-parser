@@ -1,7 +1,7 @@
 {
   "name": "express-boilerplate",
   "version": "1.0.0",
-  "description": "Express-bolierplate",
+  "description": "request header parser",
   "main": "server.js",
   "type": "module",
   "scripts": {
